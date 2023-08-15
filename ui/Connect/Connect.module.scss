@@ -1,0 +1,10 @@
+@import 'shared/styles/app.scss';
+
+.connect {
+  &__button {
+    height: 51px;
+    align-self: stretch;
+    margin-top: 24px;
+    width: 100%;
+  }
+}

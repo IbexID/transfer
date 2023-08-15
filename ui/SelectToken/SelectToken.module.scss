@@ -1,0 +1,31 @@
+@import 'shared/styles/app.scss';
+
+.network {
+  &__dropdownWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+}
+
+.menu {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transfer {
+  &__input {
+    transition: $transition;
+    background-color: var(--n800-n50);
+    border: 1px solid var(--n700-n50);
+ 
+    &:hover {
+      background: var(--n700-n25); 
+    }
+    margin-top: 12px;
+  }
+}

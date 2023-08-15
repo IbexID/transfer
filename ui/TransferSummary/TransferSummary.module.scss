@@ -1,0 +1,35 @@
+@import 'shared/styles/app.scss';
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  &__row {
+    display: flex;
+    gap: 30px;
+
+    >* {
+      flex-grow: 1;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    @include mediaSm {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+
+  &__button {
+    min-width: 150px;
+  }
+
+  &__input {
+    background: var(--color-main-background);
+  }
+}
